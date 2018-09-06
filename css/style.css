@@ -1,83 +1,95 @@
 * {
-    box-sizing: border-box;
-    text-align: center;
-  }
+  box-sizing: border-box;
+}
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    line-height: 32px;
-    color: #777;
-    background: #777;
-    width: 960px;
-  }
-
-  header {
-    padding: 20px;
-      background-color: #ebebeb;
-      margin-top: 10px;
-      margin-bottom: 10px;
-      margin-left: 10%;
-      margin-right: 10%;
+  width: 900px;
+  text-align: center;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+color: '#777';
+/* background: '#777'; */
+width: '960px';
+font-size: '18px';
+background-color: gray;
 }
-  #nav {
-    padding: 20px;
-      background-color: #ebebeb;
-      margin-top: 10px;
-      margin-bottom: 20px;
-      margin-left: 10%;
-      margin-right: 10%;
 
-  }
-  #section {
-    width: 495px;
-    height: 250px;
-    float: left;
-    overflow: auto;
-    margin-left: 0px;
-
-  }
-  .section {
-    background-color: #ebebeb;
-    
-  }
-
-  .article {
-  float: left;
-  width: 495px;
-  height: 150px;
+.header,
+.footer,
+.nav,
+.section,
+.aside {
   padding: 20px;
-  margin-left: 0px;
-  background: #777;
-  color: #ebebeb;
-  overflow: auto;
-
+  margin: auto;
   }
-  .headers {
-    width: 495px;
-    float: left;
-    background-color: #ebebeb;
-    overflow: auto;
 
-  }
-  .p {
-    width: 495px;
-    float: left;
-    background-color: #ebebeb;
-    overflow: auto;
-
-  }
-  #aside {
-    width: 495px;
-    height: 250px;
-    background-color: #ebebeb;
-    float: right;
-    clear: both;
-
-  }
-  #footer {
-    width: 80%;
-    padding: 20px;
+  .header,
+  .nav,
+  .footer {
+    width: 90%;
+    margin-bottom: 10px;
     clear: both;
     background-color: #ebebeb;
+    color: gray;
   }
+
+
+#section1 {
+  width: 495px;
+  float: left;
+  margin-left: 45px;
+  margin-top: 10px; 
+  margin-bottom: 15px;
+  background-color: #ebebeb;
+  color: gray;
+  padding: 20px;
+}
+
+#article {
+  color: '#ebebeb';
+background-color: 'grey'!important;
+border: 1px solid black;
+width: 98%;
+margin: auto;
+margin-top: 20px;
+padding: 20px;
+color: white;
+
+}
+
+
+
+.aside {
+  float: left;
+  background-color: #ebebeb;
+  color: gray;
+  margin-left: 20px;
+  margin-top: 10px;
+  width: 295px;
+  height: 230px;
+
+}
+
+.clearfix::after {
+	content: “”;
+	display: block;
+  clear: both;
+}
+  
+.footer {
+  margin-top: 20px;
+
+}
+
+.headers,
+.p {
+  border: 1px solid black;
+  width: 98%;
+  margin: auto;
+  margin-top: 8px;
+  padding: 10px;
+  background-color: #ebebeb;
+  color: gray;
+}
+#article {
+  background-color: gray;
+}
